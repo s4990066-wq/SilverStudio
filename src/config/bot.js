@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made by Silver",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -201,10 +201,10 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory:1501922452593315871,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1502026089462108310],[1502321129551958056],[1501922022131765470],[1501921682204659842],[1501922613046542367],
 
     // Priority options users/staff can assign.
     priorities: {
