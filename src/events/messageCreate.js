@@ -115,3 +115,12 @@ async function handleLeveling(message, client) {
 }
 
 
+import { handleSticky } from '../handlers/stickyHandler.js'
+
+export default {
+  name: 'messageCreate',
+  async execute(message) {
+    await handleSticky(message)
+    // ostatak tvoje logike...
+  }
+}
